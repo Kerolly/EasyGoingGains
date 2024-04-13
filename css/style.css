@@ -6,6 +6,13 @@
     --dark: #262B47;
 }
 
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
 
 /*** Spinner ***/
 #spinner {
