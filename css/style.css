@@ -202,8 +202,17 @@ h6,
 
 @media (max-width: 991.98px) {
     .screenshot-carousel::before{
-        top: 0px !important;
+        top: 70px !important;
     }
+
+    .py-5{
+        padding-top: 1rem !important;
+    }
+
+    .mob-margin{
+        margin-top: 25px;
+    }
+
     .screenshots-img-3{
         margin-left: 0 !important;
     }
@@ -470,8 +479,8 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
-    padding-top: 9rem;
+    margin-top: 2rem;
+    padding-top: 3rem;
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png);
